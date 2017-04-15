@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.helloworld.firstaid.MainActivity">
+
+    <Button
+        android:text="SYmptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/button_symptoms"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light"
+        android:background="#3F51B5" />
+
+    <Button
+        android:text="emergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_symptoms"
+        android:layout_alignRight="@+id/button_symptoms"
+        android:layout_alignEnd="@+id/button_symptoms"
+        android:layout_marginTop="77dp"
+        android:id="@+id/button_emergency"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light"
+        android:background="#3F51B5" />
+
+    <Button
+        android:text="about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_emergency"
+        android:layout_alignLeft="@+id/button_emergency"
+        android:layout_alignStart="@+id/button_emergency"
+        android:layout_marginTop="76dp"
+        android:id="@+id/button_about"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light"
+        android:background="#3F51B5" />
+
+</RelativeLayout>
